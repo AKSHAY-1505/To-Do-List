@@ -23,9 +23,7 @@ function createTaskContainer(newTask) {
         <button class="btn btn-success" onclick="completeTask(${toDoList.indexOf(newTask)})">Complete</button>
         <button class="btn btn-danger" onclick="deleteTask(${toDoList.indexOf(newTask)})">Delete</button>
     `;
-
     return taskToBeAdded;
-
 }
 
 function addTask(name,status) {
